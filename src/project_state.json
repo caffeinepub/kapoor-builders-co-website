@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Premium corporate website for Kapoor Builders & Co., a construction company with 24+ years of experience in Delhi NCR. Navy blue and gold color theme with luxurious design featuring hero section, about us, services, projects gallery, reviews, and contact sections.",
+  "architectural_notes": [
+    "Navy blue and gold color scheme matching provided logo",
+    "Fully responsive design (mobile + desktop)",
+    "Smooth animations and clean layout",
+    "SEO optimized for 'Construction Company in Delhi NCR'",
+    "Fast loading speed optimization",
+    "Professional typography throughout",
+    "Premium corporate aesthetic with luxurious feel",
+    "Updated stats: 100+ Completed Projects, 200+ Happy Clients",
+    "Office location: D-37, Block D, Radheypuri, Krishna Nagar, Delhi, 110051 with Google Maps integration"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-implement-hero-section-with-headline-building-trust-creating-landmarks-subheading-24-years-of-excellence-in-construction-collaboration-interior-solutions-in-delhi-ncr-two-cta-buttons-call-now-and-get-free-consultation-and-a-premium-modern-building-project-background-image",
+      "title": "Implement hero section with headline 'Building Trust. Creating Landmarks.', subheading '24+ Years of Excellence in Construction, Collaboration & Interior Solutions in Delhi NCR.', two CTA buttons ('Call Now' and 'Get Free Consultation'), and a premium modern building project background image",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-about-us-section-with-the-exact-provided-company-description-highlighting-24-years-of-experience-specializations-in-construction-collaboration-interiors-real-estate-services-and-commitment-to-quality-and-transparency",
+      "title": "Create About Us section with the exact provided company description highlighting 24+ years of experience, specializations in construction/collaboration/interiors, real estate services, and commitment to quality and transparency",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-services-section-with-7-elegant-service-cards-residential-construction-commercial-construction-builder-floor-projects-construction-collaboration-turnkey-projects-interior-design-execution-and-real-estate-development-each-with-premium-icons",
+      "title": "Build Services section with 7 elegant service cards: Residential Construction, Commercial Construction, Builder Floor Projects, Construction Collaboration, Turnkey Projects, Interior Design & Execution, and Real Estate Development, each with premium icons",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-why-choose-us-section-highlighting-6-key-differentiators-24-years-experience-on-time-project-delivery-transparent-pricing-skilled-professional-team-quality-craftsmanship-and-trusted-across-delhi-ncr",
+      "title": "Implement Why Choose Us section highlighting 6 key differentiators: 24+ Years Experience, On-Time Project Delivery, Transparent Pricing, Skilled & Professional Team, Quality Craftsmanship, and Trusted Across Delhi NCR",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-projects-gallery-with-modern-grid-layout-displaying-high-resolution-images-of-luxury-homes-commercial-buildings-and-interior-projects",
+      "title": "Create Projects Gallery with modern grid layout displaying high-resolution images of luxury homes, commercial buildings, and interior projects",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-reviews-section-with-customer-testimonial-slider-and-review-submission-form-collecting-name-rating-1-5-stars-and-message",
+      "title": "Build Reviews section with customer testimonial slider and review submission form collecting Name, Rating (1-5 stars), and Message",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-contact-section-with-embedded-google-maps-for-delhi-ncr-location-click-to-call-buttons-for-9891117126-and-9311737126-owner-name-display-sumit-kapoor-and-contact-form-with-name-phone-and-message-fields",
+      "title": "Implement Contact section with embedded Google Maps for Delhi NCR location, click-to-call buttons for 9891117126 and 9311737126, owner name display (Sumit Kapoor), and contact form with Name, Phone, and Message fields",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-footer-with-company-logo-quick-links-navigation-contact-details-phone-numbers-9891117126-and-9311737126-social-media-icons-and-copyright-text-2026-kapoor-builders-co",
+      "title": "Create Footer with company logo, quick links navigation, contact details (phone numbers 9891117126 and 9311737126), social media icons, and copyright text '© 2026 Kapoor Builders & Co.'",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-navy-blue-and-gold-color-theme-consistently-throughout-the-website-matching-the-uploaded-logo-colors-creating-a-luxurious-corporate-and-trustworthy-visual-identity",
+      "title": "Apply navy blue and gold color theme consistently throughout the website matching the uploaded logo colors, creating a luxurious, corporate, and trustworthy visual identity",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-integrate-the-uploaded-company-logo-kbc-123-jpeg-as-a-static-asset-throughout-the-website-including-header-and-footer-using-the-exact-logo-without-modifications",
+      "title": "Integrate the uploaded company logo (kbc 123.jpeg) as a static asset throughout the website including header and footer, using the exact logo without modifications",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-fully-responsive-design-with-smooth-animations-clean-layout-professional-typography-and-premium-corporate-aesthetic-optimized-for-both-mobile-and-desktop-viewing",
+      "title": "Ensure fully responsive design with smooth animations, clean layout, professional typography, and premium corporate aesthetic optimized for both mobile and desktop viewing",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-optimize-website-for-fast-loading-speed-and-seo-targeting-construction-company-in-delhi-ncr-with-proper-meta-tags-semantic-html-and-performance-best-practices",
+      "title": "Optimize website for fast loading speed and SEO targeting 'Construction Company in Delhi NCR' with proper meta tags, semantic HTML, and performance best practices",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-about-section-statistics-cards-change-500-to-100-for-the-projects-completed-count",
+      "title": "In the About section statistics cards, change '500+' to '100+' for the projects completed count",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-about-section-statistics-cards-change-1000-to-200-for-the-satisfied-clients-count",
+      "title": "In the About section statistics cards, change '1000+' to '200+' for the satisfied clients count",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-location-display-to-show-d-37-block-d-radheypuri-krishna-nagar-delhi-110051",
+      "title": "Update the Contact section location display to show 'D-37, Block D, Radheypuri, Krishna Nagar, Delhi, 110051'",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-embedded-google-maps-iframe-in-the-contact-section-to-use-the-provided-google-maps-url-for-kapoor-builders-co-at-coordinates-28-6575323-77-2883587",
+      "title": "Update the embedded Google Maps iframe in the Contact section to use the provided Google Maps URL for Kapoor Builders & Co. at coordinates 28.6575323, 77.2883587",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with headline, subheading, CTA buttons, and premium building background image",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us section with provided company description and 24+ years experience highlight",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services section with 7 service cards (Residential, Commercial, Builder Floor, Collaboration, Turnkey, Interiors, Real Estate)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Why Choose Us section highlighting 6 key differentiators",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Projects Gallery with modern grid layout for high-resolution project images",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Reviews section with testimonial slider and review submission form",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Contact section with Google Maps, click-to-call buttons, owner name, and contact form",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Footer with logo, quick links, contact details, social media icons, and copyright",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Kapoor Builders & Co. Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

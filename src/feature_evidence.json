@@ -1,0 +1,77 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-in-the-about-section-statistics-cards-change-500-to-100-for-the-projects-completed-count",
+      "featureTitle": "In the About section statistics cards, change '500+' to '100+' for the projects completed count",
+      "files": [
+        "frontend/src/components/AboutSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-in-the-about-section-statistics-cards-change-1000-to-200-for-the-satisfied-clients-count",
+      "featureTitle": "In the About section statistics cards, change '1000+' to '200+' for the satisfied clients count",
+      "files": [
+        "frontend/src/components/AboutSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-contact-section-location-display-to-show-d-37-block-d-radheypuri-krishna-nagar-delhi-110051",
+      "featureTitle": "Update the Contact section location display to show 'D-37, Block D, Radheypuri, Krishna Nagar, Delhi, 110051'",
+      "files": [
+        "frontend/src/components/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-embedded-google-maps-iframe-in-the-contact-section-to-use-the-provided-google-maps-url-for-kapoor-builders-co-at-coordinates-28-6575323-77-2883587",
+      "featureTitle": "Update the embedded Google Maps iframe in the Contact section to use the provided Google Maps URL for Kapoor Builders & Co. at coordinates 28.6575323, 77.2883587",
+      "files": [
+        "frontend/src/components/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

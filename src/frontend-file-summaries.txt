@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates the layout with Header, all content sections (Hero, About, Services, Why Choose Us, Projects, Reviews, Contact), and Footer.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with company logo, desktop/mobile navigation menu, smooth scroll to sections, and navy blue background with gold accents.",
+  "frontend/src/components/HeroSection.tsx": "Full-screen hero section with premium building background image, headline \"Building Trust. Creating Landmarks.\", subheading, and two CTA buttons (Call Now and Get Free Consultation).",
+  "frontend/src/components/AboutSection.tsx": "About section displaying company statistics (24+ years, 100+ projects, 200+ clients, 100% satisfaction) and complete company description highlighting experience, services, and commitment to quality.",
+  "frontend/src/components/ServicesSection.tsx": "Services section with 7 elegant service cards (Residential, Commercial, Builder Floor, Collaboration, Turnkey, Interior, Real Estate) featuring premium icons and hover effects.",
+  "frontend/src/components/WhyChooseUsSection.tsx": "Why Choose Us section on navy background highlighting 6 key differentiators (24+ Years Experience, On-Time Delivery, Transparent Pricing, Skilled Team, Quality Craftsmanship, Trusted Across Delhi NCR).",
+  "frontend/src/components/ProjectsGallery.tsx": "Projects gallery with category filter and responsive grid layout displaying 9 high-quality project images with hover effects and category badges.",
+  "frontend/src/components/ReviewsSection.tsx": "Reviews section with testimonial slider showing existing reviews and a submission form for new reviews (Name, Rating, Message) connected to backend.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with Google Maps embed showing Kapoor Builders & Co. location at D-37, Block D, Radheypuri, Krishna Nagar, Delhi, 110051, contact information cards (phone numbers, location, hours), owner name display (Sumit Kapoor), and contact form connected to backend.",
+  "frontend/src/components/Footer.tsx": "Footer with company logo, quick links navigation, services list, contact details (phone numbers), social media icons, and copyright with caffeine.ai attribution.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including useGetAllReviews, useSubmitReview, and useSubmitContactMessage with proper state management and cache invalidation.",
+  "frontend/src/index.css": "Global styles with navy blue (#1a2b4a) and gold (#d4af37) color theme, custom CSS variables, smooth scrolling, custom scrollbar, fade-in animations, and premium typography using Inter and Poppins fonts.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with navy and gold custom colors, premium shadows (gold-glow, navy-glow), custom font families (Inter, Poppins), and fade-in animation keyframes.",
+  "frontend/index.html": "HTML entry point with comprehensive SEO meta tags targeting \"Construction Company in Delhi NCR\", Open Graph tags, favicon, and Google Fonts preconnect for Inter and Poppins fonts."
+}

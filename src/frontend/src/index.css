@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        
+        /* Navy Blue and Gold Theme */
+        --navy: 210 60% 15%;
+        --gold: 45 85% 55%;
+        
+        /* Light Mode Colors */
+        --background: 0 0% 100%;
+        --foreground: 210 60% 15%;
+        
+        --card: 0 0% 100%;
+        --card-foreground: 210 60% 15%;
+        
+        --popover: 0 0% 100%;
+        --popover-foreground: 210 60% 15%;
+        
+        --primary: 210 60% 15%;
+        --primary-foreground: 0 0% 100%;
+        
+        --secondary: 45 85% 55%;
+        --secondary-foreground: 210 60% 15%;
+        
+        --muted: 210 20% 96%;
+        --muted-foreground: 210 20% 45%;
+        
+        --accent: 45 85% 55%;
+        --accent-foreground: 210 60% 15%;
+        
+        --destructive: 0 84% 60%;
+        --destructive-foreground: 0 0% 100%;
+        
+        --border: 210 20% 90%;
+        --input: 210 20% 90%;
+        --ring: 45 85% 55%;
+        
+        --chart-1: 210 60% 50%;
+        --chart-2: 45 85% 55%;
+        --chart-3: 210 40% 70%;
+        --chart-4: 45 70% 70%;
+        --chart-5: 210 30% 85%;
+    }
+
+    .dark {
+        --background: 210 60% 10%;
+        --foreground: 0 0% 98%;
+        
+        --card: 210 60% 15%;
+        --card-foreground: 0 0% 98%;
+        
+        --popover: 210 60% 12%;
+        --popover-foreground: 0 0% 98%;
+        
+        --primary: 45 85% 55%;
+        --primary-foreground: 210 60% 15%;
+        
+        --secondary: 210 50% 20%;
+        --secondary-foreground: 0 0% 98%;
+        
+        --muted: 210 50% 20%;
+        --muted-foreground: 210 20% 70%;
+        
+        --accent: 45 85% 55%;
+        --accent-foreground: 210 60% 15%;
+        
+        --destructive: 0 62% 50%;
+        --destructive-foreground: 0 0% 98%;
+        
+        --border: 210 40% 25%;
+        --input: 210 40% 25%;
+        --ring: 45 85% 55%;
+        
+        --chart-1: 210 60% 60%;
+        --chart-2: 45 85% 65%;
+        --chart-3: 210 40% 50%;
+        --chart-4: 45 70% 50%;
+        --chart-5: 210 30% 40%;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Poppins', 'Inter', sans-serif;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+    }
+}
+
+@layer utilities {
+    .animate-fade-in {
+        animation: fadeIn 1s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(var(--gold));
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--navy));
+}

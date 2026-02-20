@@ -1,2 +1,3 @@
-# kapoor-builders-co-website
-Exported from Caffeine project: Kapoor Builders &amp; Co. Website
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

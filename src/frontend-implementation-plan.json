@@ -1,0 +1,67 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update statistics and contact location details",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "summary": "Update projects completed statistic from '500+' to '100+' in About section",
+      "acceptanceCriteria": [
+        "The statistics card showing projects completed displays '100+' instead of '500+'",
+        "The change is reflected in frontend/src/components/AboutSection.tsx at the element matching XPath /html[1]/body[1]/div[1]/div[1]/main[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/AboutSection.tsx",
+          "operation": "modify",
+          "description": "Update the projects completed statistic from '500+' to '100+' in the second statistics card. Locate the card displaying project count and modify the text content while preserving all existing styling and layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Update satisfied clients statistic from '1000+' to '200+' in About section",
+      "acceptanceCriteria": [
+        "The statistics card showing satisfied clients displays '200+' instead of '1000+'",
+        "The change is reflected in frontend/src/components/AboutSection.tsx at the element matching XPath /html[1]/body[1]/div[1]/div[1]/main[1]/section[2]/div[1]/div[1]/div[2]/div[3]/div[1]"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/AboutSection.tsx",
+          "operation": "modify",
+          "description": "Update the satisfied clients statistic from '1000+' to '200+' in the third statistics card. Locate the card displaying client count and modify the text content while preserving all existing styling and layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "summary": "Update Contact section location to display D-37, Block D, Radheypuri, Krishna Nagar, Delhi, 110051",
+      "acceptanceCriteria": [
+        "The location address in the Contact section displays 'D-37, Block D, Radheypuri, Krishna Nagar, Delhi, 110051'",
+        "The change is reflected in frontend/src/components/ContactSection.tsx at the elements matching XPath /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[1]/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/p[1] and /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[1]/div[2]/div[1]/div[2]/div[3]/div[2]/div[1]/p[1]"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Update all location address displays to show 'D-37, Block D, Radheypuri, Krishna Nagar, Delhi, 110051' in the contact information cards. Locate the location text elements and replace the existing address while maintaining all styling and layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "summary": "Update Google Maps iframe to display Kapoor Builders & Co. location at coordinates 28.6575323, 77.2883587",
+      "acceptanceCriteria": [
+        "The Google Maps embed in ContactSection.tsx displays the correct location for D-37, Block D, Radheypuri, Krishna Nagar, Delhi, 110051",
+        "The iframe src attribute uses the embed format with coordinates 28.6575323, 77.2883587 or the provided place ID"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Update the Google Maps iframe src attribute to use the embed format for Kapoor Builders & Co. at coordinates 28.6575323, 77.2883587. Convert the provided Google Maps URL to the proper embed format (https://www.google.com/maps/embed?pb=...) or use the place ID from the URL while preserving the iframe styling and dimensions."
+        }
+      ]
+    }
+  ]
+}
